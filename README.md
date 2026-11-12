@@ -35,7 +35,7 @@
 ## Screenshots
 
 
-| Login / Home Screen | New Print Order | Order History |
+|  Home Screen | New Print Order | Order History |
 | :---: | :---: | :---: |
 | ![Home](screenshots/home.png) | ![Order](screenshots/order.png) | ![History](screenshots/history.png) |
 
