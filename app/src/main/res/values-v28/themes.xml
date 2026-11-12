@@ -1,0 +1,27 @@
+<resources>
+    <style name="Theme.PrintXpress" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/px_primary</item>
+        <item name="colorPrimaryVariant">@color/px_primary_dark</item>
+        <item name="colorSecondary">@color/px_accent</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@color/px_surface</item>
+        <item name="android:navigationBarColor">@color/px_surface</item>
+        <item name="android:windowBackground">@color/px_background</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">default</item>
+        <item name="materialButtonStyle">@style/Widget.PrintXpress.Button</item>
+    </style>
+
+    <style name="Theme.PrintXpress.Splash" parent="Theme.PrintXpress">
+        <item name="android:windowBackground">@color/px_background</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="Widget.PrintXpress.Button" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">14dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:minHeight">52dp</item>
+    </style>
+</resources>

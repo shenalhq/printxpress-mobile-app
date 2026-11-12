@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/px_background">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="18dp"
+            android:paddingEnd="18dp"
+            android:paddingBottom="18dp">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        app:title="Design resources"
+        app:navigationIcon="@android:drawable/ic_media_previous"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Print-ready file checklist"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:textColor="@color/px_text"
+        android:layout_marginTop="12dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="✓ PDF is preferred for final artwork\n✓ Use 300 DPI images at final print size\n✓ Use CMYK colours when possible\n✓ Add about 3 mm bleed for edge-to-edge designs\n✓ Keep important text inside a safe margin\n✓ Outline or embed fonts before export"
+        android:textColor="@color/px_text"
+        android:textSize="15sp"
+        android:lineSpacingExtra="8dp"
+        android:background="@drawable/bg_card"
+        android:padding="16dp" android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quick FAQ"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:textColor="@color/px_text"
+        android:layout_marginTop="22dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Why can printed colour look different?\nScreens use RGB light while commercial printing usually uses CMYK inks.\n\nWhat is bleed?\nBleed is extra artwork outside the trim edge so cutting does not leave white borders.\n\nCan I upload artwork later?\nYes. You can save a design and attach the final artwork before production starts."
+        android:textColor="@color/px_text_secondary"
+        android:textSize="15sp"
+        android:lineSpacingExtra="5dp"
+        android:background="@drawable/bg_card"
+        android:padding="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="24dp"/>
+
+    </LinearLayout>
+</ScrollView>

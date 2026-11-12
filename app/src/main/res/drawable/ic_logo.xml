@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+
+    <!-- Main rounded blue background -->
+    <path
+        android:fillColor="#1F5EFF"
+        android:pathData="M14,6H50A8,8 0,0 1,58 14V50A8,8 0,0 1,50 58H14A8,8 0,0 1,6 50V14A8,8 0,0 1,14 6Z" />
+
+    <!-- Simple white P -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M20,17H36C44,17 49,22 49,29C49,36 44,41 36,41H28V49H20V17ZM28,24V34H36C39.5,34 41.5,32 41.5,29C41.5,26 39.5,24 36,24H28Z" />
+
+    <!-- Printing colour blocks -->
+    <path
+        android:fillColor="#22D3EE"
+        android:pathData="M39,45H44V50H39Z" />
+
+    <path
+        android:fillColor="#F43F5E"
+        android:pathData="M46,45H51V50H46Z" />
+
+    <path
+        android:fillColor="#FACC15"
+        android:pathData="M39,52H44V55H39Z" />
+
+</vector>

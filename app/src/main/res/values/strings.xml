@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PrintXpress</string>
+    <string name="demo_email">customer@printxpress.lk</string>
+    <string name="app_settings">App settings</string>
+    <string name="use_design">Use Design</string>
+    <string name="create_design">Create Design</string>
+    <string name="delete">Delete</string>
+    <string name="design_preview">Design preview</string>
+    <string name="no_saved_designs">No saved designs yet. Choose artwork on a product page and tap Save to My Designs.</string>
+</resources>

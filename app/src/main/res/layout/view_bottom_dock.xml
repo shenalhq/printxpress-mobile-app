@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottomDock"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:background="@drawable/bg_dock"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <ImageButton
+        android:id="@+id/dockHome"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="4dp" android:layout_marginEnd="4dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Home"
+        android:padding="12dp"
+        android:src="@drawable/ic_nav_home" />
+
+    <ImageButton
+        android:id="@+id/dockSearch"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="4dp" android:layout_marginEnd="4dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Search"
+        android:padding="12dp"
+        android:src="@drawable/ic_nav_search" />
+
+    <ImageButton
+        android:id="@+id/dockOrders"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="4dp" android:layout_marginEnd="4dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Orders"
+        android:padding="12dp"
+        android:src="@drawable/ic_nav_orders" />
+
+    <ImageButton
+        android:id="@+id/dockCart"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="4dp" android:layout_marginEnd="4dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Cart"
+        android:padding="12dp"
+        android:src="@drawable/ic_nav_cart" />
+
+    <ImageButton
+        android:id="@+id/dockProfile"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="4dp" android:layout_marginEnd="4dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Profile"
+        android:padding="12dp"
+        android:src="@drawable/ic_nav_profile" />
+
+</LinearLayout>

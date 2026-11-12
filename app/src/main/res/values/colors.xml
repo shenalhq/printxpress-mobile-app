@@ -1,0 +1,13 @@
+<resources>
+    <color name="px_primary">#1F5EFF</color>
+    <color name="px_primary_dark">#1748C9</color>
+    <color name="px_accent">#0EA5A4</color>
+    <color name="px_background">#F7F9FC</color>
+    <color name="px_surface">#FFFFFF</color>
+    <color name="px_text">#182230</color>
+    <color name="px_text_secondary">#667085</color>
+    <color name="px_border">#E4E7EC</color>
+    <color name="px_success">#0E9F6E</color>
+    <color name="px_warning">#F59E0B</color>
+    <color name="px_danger">#D92D20</color>
+</resources>
